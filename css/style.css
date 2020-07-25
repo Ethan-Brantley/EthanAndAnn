@@ -1,0 +1,386 @@
+html {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #5c5c5c;
+    background-color: #EFEFEF;
+    width: 100%;
+
+}
+
+#pageContainer {
+
+    position: relative;
+    min-height: 100vh;
+
+}
+
+#content-wrap {
+
+    padding-bottom: 8em;
+
+}
+
+#main {
+
+    transition: margin-left .5s;
+    padding-top: 5em;
+    width: 100%;
+
+}
+
+
+
+#footer {
+
+    position: absolute;
+    width: 100%;
+    height: 8em;
+    bottom: 0px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 0 10px 0;
+
+}
+
+#footer-text {
+
+    color: white;
+    padding-top: 3em;
+
+}
+
+p {
+
+    line-height: 25px;
+    display: block;
+    text-indent: 50px;
+    padding: 3em;
+    
+}
+
+.dark {
+
+    color: #5c5c5c;
+
+}
+
+.quote {
+
+    line-height: 25px;
+    width: 75%;
+    display: block;
+    text-indent: 50px;
+    font-size: 1em;
+    padding: 3em 0 0 3em;
+
+}
+
+.quote-footer {
+
+    line-height: 10px;
+    display: block;
+    text-indent: 50px;
+    padding: 1em 0px 0px 0px;
+    font-size: 1em;
+    color: #808080;
+
+}
+
+h1 {
+
+    font-size: 2em;
+    padding: 50px 0px 20px 50px;
+
+}
+
+h2 {
+
+    font-size: 1.4em;
+    padding: 0px 0px 20px 50px;
+
+}
+
+#icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 5em;
+}
+
+.menuBars {
+
+    background-color: #000000;
+    height: 2px;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+#menuIcon {
+
+    display: block;
+    position: absolute;
+    top: 1em;
+    width: 2em;
+    margin: 10px;
+
+}
+
+.nav {
+
+    display: none;
+
+}
+
+#mobileSidebar {
+
+    width: 0;
+    display: none;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000;
+
+}
+
+#mobileNav a {
+
+    text-decoration: none;
+    display: block;
+    padding: 3em 1em 0em 3em;
+    color: #fff;
+
+}
+
+.products {
+
+    width: 100%;
+    height: 125em;
+    display: block;
+
+}
+
+.productCard1 {
+
+    width: 100%;
+    float: left;
+    background-color: #7c677f;
+    height: 16%;
+    transition: 0.6s ease all 0.0s;
+    padding: 10px 0px 10px 0;
+    margin: 10px 0 10px 0;
+
+}
+
+
+.productCard2 {
+
+    width: 100%;
+    float: right;
+    background-color: #6A8067;
+    height: 16%;
+    transition: 0.6s ease all 0.0s;
+    padding: 10px 0px 10px 0;
+    margin: 10px 0 10px 0;
+
+}
+
+.productCard1 h2, p {
+
+    color: white;
+
+}
+.productCard2 h2, p {
+
+    color: white;
+
+}
+
+.fa {
+
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0px 10px 0px 10px;
+
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-reddit {
+    background: #ff5700;
+    color: white;
+}
+
+/*
+#nav {
+
+    display: none;
+    width: 100%;
+    padding: 4em;
+
+}
+
+.navItem a {
+
+    display: block;
+    padding: 2px;
+    width: 5em;
+    margin: 1em;
+    text-decoration: none;
+    color: #000;
+    position: relative;
+
+}
+
+.navItem a::after {
+
+    content: "";
+    position: absolute;
+    background-color: #000;
+    height: 2px;
+    width: 0%;
+    left: 0;
+    bottom: 0;
+    transition: 0.5s ease all 0.0s;
+
+}
+
+.navItem a:hover::after {
+
+    width: 100%;
+    transition: 0.3s ease all;
+
+} */
+
+@media only screen and (min-width: 992px) {
+
+    #main {
+
+        padding-top: 100px;
+
+    }
+
+    #icon {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 6em;
+        padding: 1em;
+    }
+
+    .nav {
+
+        display: block;
+        width: 100%;
+        padding: 3.5em 0 3.5em 0;
+    
+    }
+    
+    .navItem {
+    
+        display: inline;
+        padding: 0 7em 0 7em;
+    
+    }
+
+    .navItem a {
+
+        text-decoration: none;
+        color: #5c5c5c;
+        position: relative;
+
+    }
+    
+    .navItem a::after {
+
+        content: "";
+        position: absolute;
+        background-color: #000;
+        height: 1px;
+        width: 0%;
+        left: 0;
+        bottom: 0;
+        transition: 0.5s ease all 0.0s;
+
+    }
+
+    .navItem a:hover::after {
+
+        width: 100%;
+        transition: 0.3s ease all;
+    
+    }
+
+    .menuBars {
+
+        display: none;
+
+    }
+
+    .products {
+
+        width: 100%;
+        height: 120em;
+        display: block;
+    
+    }
+    
+    .productCard1 {
+    
+        width: 75%;
+        float: left;
+        background-color: #7c677f;
+        height: 15%;
+        transition: 0.6s ease all 0.0s;
+        padding: 10px 0px 10px 0;
+        margin: 10px 0 10px 0;
+    
+    }
+    
+    .productCard1:hover {
+    
+        width: 100%;
+    
+    }
+    
+    .productCard2 {
+    
+        width: 75%;
+        float: right;
+        background-color: #6A8067;
+        height: 15%;
+        transition: 0.6s ease all 0.0s;
+        padding: 10px 0px 10px 0;
+        margin: 10px 0 10px 0;
+    
+    }
+    
+    .productCard2:hover {
+    
+        width: 100%;
+    
+    }
+    
+    .productCard1 h2, p {
+    
+        color: white;
+    
+    }
+    .productCard2 h2, p {
+    
+        color: white;
+    
+    }
+
+}
