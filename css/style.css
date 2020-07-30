@@ -16,7 +16,8 @@ html {
 
 #content-wrap {
 
-    padding-bottom: 8em;
+    padding-bottom: 30em;
+    text-align: center;
 
 }
 
@@ -217,10 +218,74 @@ h2 {
     color: white;
 }
 
-.fa-reddit {
-    background: #ff5700;
-    color: white;
+.fa-envelope {
+    background: white;
+    color: #000000;
 }
+
+#landingBanner {
+
+    width: 90%;
+    height: 65vh;
+    position: relative;
+    margin: 20px;
+    display: inline-block;
+}
+
+#bannerImage {
+
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 0;
+    position: absolute;
+
+}
+
+#bannerText {
+
+    bottom: 0;
+    padding-bottom: 2%;
+    width: 100%;
+    height: 30%;
+    background-color: black;
+    position: absolute;
+    opacity: 0.8;
+    z-index: 1;
+    transition: 0.9s ease all 0.0s;
+
+}
+
+#bannerText h1 {
+
+    font-size: 1.3em;
+    padding: 1em;
+    color: white;
+
+}
+
+.col {
+
+    float: left;
+    margin: 2.5%;
+    width: 20%;
+    background-color: black;
+    color: white;
+    height: 10em;
+
+}
+
+.row:after {
+
+    content: "";
+    display: table;
+    clear: both;
+    text-align: center;
+
+}
+
+
 
 /*
 #nav {
@@ -338,37 +403,25 @@ h2 {
     
     .productCard1 {
     
-        width: 75%;
+        width: 50em;
         float: left;
         background-color: #7c677f;
-        height: 15%;
-        transition: 0.6s ease all 0.0s;
+        height: 20em;
+        transition: 0.4s ease all 0.0s;
         padding: 10px 0px 10px 0;
-        margin: 10px 0 10px 0;
-    
-    }
-    
-    .productCard1:hover {
-    
-        width: 100%;
+        margin: 15px 0 15px 0;
     
     }
     
     .productCard2 {
     
-        width: 75%;
+        width: 50em;
         float: right;
         background-color: #6A8067;
-        height: 15%;
-        transition: 0.6s ease all 0.0s;
+        height: 20em;
+        transition: 0.4s ease all 0.0s;
         padding: 10px 0px 10px 0;
         margin: 10px 0 10px 0;
-    
-    }
-    
-    .productCard2:hover {
-    
-        width: 100%;
     
     }
     
@@ -380,6 +433,31 @@ h2 {
     .productCard2 h2, p {
     
         color: white;
+    
+    }
+
+    #bannerText {
+
+        bottom: 0;
+        padding: 0;
+        width: 100%;
+        height: 20%;
+        background-color: black;
+        position: absolute;
+        opacity: 0.8;
+        z-index: 1;
+        transition: 0.9s ease all 0.0s;
+    
+    }
+
+    .col {
+
+        float: left;
+        margin: 2.5%;
+        width: 20%;
+        background-color: black;
+        color: white;
+        height: 300px;
     
     }
 
