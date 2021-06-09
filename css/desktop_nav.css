@@ -1,0 +1,55 @@
+@media only screen and (min-width: 992px) {
+
+    .desktopNav {
+
+        visibility: visible;
+        display: block;
+        width: 100%;
+        padding: 3.5em 0 3.5em 0;
+
+    
+    }
+    
+    .navItem {
+    
+        display: inline;
+        padding: 0 7em 0 7em;
+    
+    }
+
+    .navItem a {
+
+        text-decoration: none;
+        color: #5c5c5c;
+        position: relative;
+
+    }
+    
+    .navItem a::after {
+
+        content: "";
+        position: absolute;
+        background-color: #000;
+        height: 1px;
+        width: 0%;
+        left: 0;
+        bottom: 0;
+        transition: 0.5s ease all 0.0s;
+
+    }
+
+    .navItem a:hover::after {
+
+        width: 100%;
+        transition: 0.3s ease all;
+    
+    }
+
+    #burger {
+
+        visibility: hidden;
+
+    }
+
+
+}

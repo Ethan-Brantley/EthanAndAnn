@@ -23,9 +23,17 @@ html {
 
 #main {
 
-    transition: margin-left .5s;
     padding-top: 5em;
     width: 100%;
+
+}
+
+.content {
+
+    width: 65%;
+    padding: 50px 10px 100px 10px;
+    margin: 20px auto 20px auto;
+    background-color: white;
 
 }
 
@@ -60,8 +68,8 @@ p {
 
     line-height: 25px;
     display: block;
-    text-indent: 50px;
     padding: 3em;
+
     
 }
 
@@ -102,7 +110,6 @@ h1 {
 h2 {
 
     font-size: 1.4em;
-    padding: 0px 0px 20px 50px;
 
 }
 
@@ -263,9 +270,44 @@ h2 {
     .products {
 
         width: 100%;
-        height: 120em;
+        height: 50em;
         display: block;
     
+    }
+
+    .product-card-sm {
+
+        display: inline-block;
+        width: 20%;
+        height: 50%;
+        margin: 5%;
+
+    }
+
+    .product-card-sm a {
+
+        text-align: center;
+        text-decoration: none;
+        color: black;
+
+    }
+
+    .lavender {
+
+        background-color: #7c677f;
+        color: black;
+        font-size: 1.5em;
+        padding-top: 20px;
+        
+    }
+
+    .green {
+
+        background-color: #6A8067;
+        color: black;
+        font-size: 1.5em;
+        padding-top: 20px;
+
     }
     
     .productCard1 {
@@ -288,7 +330,7 @@ h2 {
         height: 20em;
         transition: 0.4s ease all 0.0s;
         padding: 10px 0px 10px 0;
-        margin: 10px 0 10px 0;
+        margin: 15px 0 15px 0;
     
     }
     
@@ -328,55 +370,5 @@ h2 {
     
     }
 
-    .desktopNav {
-
-        visibility: visible;
-        display: block;
-        width: 100%;
-        padding: 3.5em 0 3.5em 0;
-
-    
-    }
-    
-    .navItem {
-    
-        display: inline;
-        padding: 0 7em 0 7em;
-    
-    }
-
-    .navItem a {
-
-        text-decoration: none;
-        color: #5c5c5c;
-        position: relative;
-
-    }
-    
-    .navItem a::after {
-
-        content: "";
-        position: absolute;
-        background-color: #000;
-        height: 1px;
-        width: 0%;
-        left: 0;
-        bottom: 0;
-        transition: 0.5s ease all 0.0s;
-
-    }
-
-    .navItem a:hover::after {
-
-        width: 100%;
-        transition: 0.3s ease all;
-    
-    }
-
-    #burger {
-
-        visibility: hidden;
-
-    }
 
 }
