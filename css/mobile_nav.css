@@ -1,0 +1,92 @@
+html, body {margin:0;padding:0;height:100%;}
+
+.invisible {
+
+    display: hidden;
+
+}
+
+#burger {
+
+    height: 50px; 
+	width: 50px;
+	position: absolute;
+	top: 11px; 
+	left: 21px;
+	cursor: pointer;
+    z-index: 2;
+
+}
+
+div.x, div.y, div.z {
+	position: absolute; 
+    margin: auto;
+	top: 0px; 
+    bottom: 0px;		
+	background: #000;
+	border-radius:2px;
+	-webkit-transition: all 200ms ease-out;
+	-moz-transition: all 200ms ease-out;
+	-ms-transition: all 200ms ease-out;
+	-o-transition: all 200ms ease-out;
+	transition: all 200ms ease-out;
+	}		
+
+div.x, div.y, div.z { 
+    height: 3px; width: 26px;
+}
+
+div.y{top: 18px;}
+	
+div.z{top: 37px;}
+
+.collapse{
+    top: 20px;
+		-webkit-transition: all 70ms ease-out;
+		   -moz-transition: all 70ms ease-out;
+		    -ms-transition: all 70ms ease-out;
+		     -o-transition: all 70ms ease-out;
+		        transition: all 70ms ease-out;
+                
+
+}
+
+div.rotate30{
+    -ms-transform: rotate(-45deg); 
+    -webkit-transform: rotate(-45deg); 
+    transform: rotate(-45deg);	
+    -webkit-transition: all 100ms ease-out;
+       -moz-transition: all 100ms ease-out;
+        -ms-transition: all 100ms ease-out;
+         -o-transition: all 100ms ease-out;
+            transition: all 100ms ease-out;	
+}
+
+#nav-bar {
+
+    visibility: hidden;
+    width: 0;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    transition: width 300ms;
+    box-shadow: 7px 12px gray;
+    border-right: 1px solid black;
+    z-index: 1;
+    background-color: white;
+    
+
+}
+
+a.navItem {
+
+    display: block;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    width: 100%;
+    margin: auto;
+    text-decoration: none;
+    color: #000;
+    position: relative;
+
+}
