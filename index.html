@@ -17,16 +17,19 @@
             <div id="content-wrap">
                 <img src="images/textless_logo.png" id="icon">
 
-                <div class="btn-nav">
                     <div id="burger" onclick="toggleMenu()">
                         <div class="x" id="top"></div>
                         <div class="y" id="middle"></div>
                         <div class="z" id="bottom"></div>
                     </div>
-                </div>
                 <div id="nav-bar">
                     <a href="index.html" class="navItem">Home</a>
-                    <a href="products.html" class="navItem">Products</a>
+                    <a href="#" class="navItem" onclick="toggleProducts()">Products</a>
+                    <ul class="invisible" id="product-list">
+                        <li class="product-item"><a href="products/soaps.html" class="product-item">Soap</a></li>
+                        <li class="product-item"><a href="products/lotions.html" class="product-item">Lotion</a></li>
+                        <li class="product-item"><a href="products/balms.html" class="product-item">Lip Balm</a></li>
+                    </ul>
                     <a href="about.html" class="navItem">About Us</a>
                     <a href="contact.html" class="navItem">Contact Us</a>
                 </div>
@@ -39,63 +42,7 @@
                 </ul>
         
                 <main id="main">
-                    <h1>Home</h1>
-
-            <!--
-            <div id="landingBanner">
-                <div id="bannerText">
-
-                    <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque deserunt quis iste laboriosam. Illo nobis et </h1>
-
-                </div>
-                
-                <img src="images/grassBanner.jpg" id="bannerImage">
-            </div>
-
-            <div class="row">
-                <div class="col">
-                    Info
-                </div>
-                <div class="col">
-                    Info
-                </div>
-                <div class="col">
-                    Info
-                </div>
-                <div class="col">
-                    Info
-                </div>
-            </div>-->
-
-            <!--<div class="products">
-                <div class="productCard1">
-                    <h2>Our Mission</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi perferendis unde porro, ducimus est nisi dolores, ipsum, voluptate quo qui at obcaecati accusantium illo voluptatem. Ab enim natus animi aspernatur.
-                    </p>
-                    <p>Click <a href="#ourSoaps">here</a> to shop</p>
-                </div>
-                <div class="productCard2">
-                    <h2>Who We Are</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi perferendis unde porro, ducimus est nisi dolores, ipsum, voluptate quo qui at obcaecati accusantium illo voluptatem. Ab enim natus animi aspernatur.
-                    </p>
-                    <p>Click <a href="#ourLotions">here</a> to shop</p>
-                </div>
-                <div class="productCard1">
-                    <h2>Contact Us</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi perferendis unde porro, ducimus est nisi dolores, ipsum, voluptate quo qui at obcaecati accusantium illo voluptatem. Ab enim natus animi aspernatur.
-                    </p>
-                    <p>Click <a href="#ourBathbombs">here</a> to shop</p>
-                </div>
-                <div class="productCard2">
-                    <h2>Our Products</h2>
-                </div>
-                <div class="productCard1">
-                    <h2>Custom Ordering</h2>
-                </div>
-            </div>!-->          
+                    <h1>Home</h1>      
 
             </main>
         </div>
