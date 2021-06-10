@@ -251,6 +251,52 @@ h2 {
 
 }
 
+.product-photo-container {
+
+    width: 25%;
+    display: inline-block;
+    margin: 25px;
+    margin-top: 50px;
+    overflow: hidden;
+
+}
+
+.product-photo {
+
+    width: 100%;
+
+}
+
+.product-photo-container:hover .product-photo {
+
+    opacity: 0.3;
+    transition: 300ms all;
+
+}
+
+.product-photo-container:hover .middle {
+
+    opacity: 1;
+    transition: 300ms all;
+
+}
+
+.middle {
+
+    opacity: 0;
+    position: relative;
+    transform: translateY(-1000%);
+
+}
+
+.product-text {
+
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+
+}
+
 @media only screen and (min-width: 992px) {
 
     #main {
@@ -281,6 +327,9 @@ h2 {
         width: 20%;
         height: 50%;
         margin: 5%;
+        font-size: 1.5em;
+        padding-top: 20px;
+        background-color: white;
 
     }
 
