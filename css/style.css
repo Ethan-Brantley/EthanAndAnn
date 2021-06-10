@@ -113,6 +113,11 @@ h2 {
 
 }
 
+h3 {
+    font-size: 0.7em;
+    padding: 10px;
+}
+
 #icon {
     position: absolute;
     right: 0;
@@ -297,12 +302,58 @@ h2 {
 
 }
 
+.product-card-sm {
+
+    display: inline-block;
+    width: 20%;
+    min-height: 100%;
+    margin: 5%;
+    font-size: 1.5em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+
+}
+
+.product-card-sm a {
+
+    text-align: center;
+    text-decoration: none;
+    color: black;
+
+}
+
 @media only screen and (min-width: 992px) {
 
     #main {
 
         padding-top: 100px;
 
+    }
+
+    .product-card-sm {
+
+        display: inline-block;
+        width: 20%;
+        min-height: 50%;
+        margin: 5%;
+        font-size: 1.5em;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: white;
+    
+    }
+    
+    .product-card-sm a {
+    
+        text-align: center;
+        text-decoration: none;
+        color: black;
+    
+    }
+
+    h3 {
+        font-size: 1em;
     }
 
     #icon {
@@ -321,25 +372,9 @@ h2 {
     
     }
 
-    .product-card-sm {
 
-        display: inline-block;
-        width: 20%;
-        height: 50%;
-        margin: 5%;
-        font-size: 1.5em;
-        padding-top: 20px;
-        background-color: white;
 
-    }
 
-    .product-card-sm a {
-
-        text-align: center;
-        text-decoration: none;
-        color: black;
-
-    }
 
     .lavender {
 
